@@ -9,7 +9,7 @@ function setup() {
  bullet = createSprite(50,200,50,10);
  wall = createSprite(1200,200,thickness,height/2);
 
- speed=random(223,321)
+ speed=random(223,321);
  weight=random(30,52)
 
  bullet.velocityX=speed
